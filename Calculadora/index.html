@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Primeiro exemplo de JS</title>
+  </head>
+  <body>
+    <h1>CALCULADORA</h1>
+
+    <main>
+      <label for="first"
+        >SELECIONE <span class="espaco">O</span> PRIMEIRO</label
+      >
+      <input type="text" id="first" />
+      <label for="first"
+        >SELECIONE <span class="espaco">A</span> OPERAÇÃO</label
+      >
+      <select id="operation">
+        <option value="soma">+</option>
+        <option value="sub">-</option>
+        <option value="mult">*</option>
+        <option value="div">/</option>
+        <option value="elev">^</option>
+      </select>
+      <label for="first">SELECIONE <span class="espaco">O</span> SEGUNDO</label>
+      <input type="text" id="second" />
+      <button onclick="clicou()">
+        VEJA <span class="espaco">O</span> RESULTADO
+      </button>
+      <p id="result"></p>
+      <script src="scripit.js"></script>
+    </main>
+  </body>
+</html>

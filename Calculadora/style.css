@@ -1,0 +1,97 @@
+/* Reset CSS Moderno */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  font-family: sans-serif, Arial, Helvetica;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #474343;
+}
+
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+/* FIM DO RESET */
+
+body {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 3vh;
+}
+
+.espaco {
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+
+main {
+  padding: 5vh 5vh 5vh 5vh;
+  background-color: rgba(0, 0, 0, 0.811);
+  display: flex;
+  flex-direction: column;
+  border-radius: 4%;
+  text-align: center;
+  color: azure;
+}
+
+input,
+button,
+select {
+  background-color: rgb(42, 39, 39);
+  color: rgb(255, 255, 255);
+  margin: 3vh 0 3vh 0;
+  text-align: center;
+  border-radius: 1%;
+  appearance: none;
+}
+
+input {
+  padding: 2vh 8vh 2vh 8vh;
+}
